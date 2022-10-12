@@ -1,0 +1,63 @@
+ 1   CREATING A DIRECTORY'PROJECT-DIR AND CD TO PROJECT-DIR
+
+    first you create a folder name  project
+    by using 
+             pwd 
+            cd  ( folder name )
+           git init
+             
+                cd ls  --->   its show no files in project folder
+   or
+     cd Desktop\project  
+ 
+2    initialize the git version data base
+    by using git init command
+  
+3     create a new file
+       index.html
+ 
+4    check the git status.you should find index.html as untracked file
+      git status command   (  they show untracked files)
+
+5    stage the index file
+   
+       by using git add index.text (file name )
+
+6    commit index.html
+     
+    by using git commit -m "message"
+
+
+7    make a few change in index.file and create a new fie info.text file
+    
+ 8  check git status all the two files are un tracked files 
+    by using git status command
+
+ 9   configure git to ingore all text files
+
+10   again check the git status.
+
+11  commit index.html
+
+12  log all your comments so far
+
+13  make some changes in index.html
+
+14  file will be moving to unstaging area
+    git reset HEAD filename.extension  --> by using this command to move those filesinto unstaging area.
+    and check git status
+s 
+15 deleteing the files
+   git rm filename.txt
+   git status
+
+16 rename the file
+   first we create a new file in folder then
+   git add (old file name.extension)
+   git rm (rename file name .extension ) new created file in folder.
+   git status   --> shows existing file name  --> to  --> rename name fie
+
+17 some changes occurs in any file then
+   by using git diff command it shows old changes and  new changes in a file
+   git diff
+   git status    
